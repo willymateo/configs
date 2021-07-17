@@ -1,0 +1,84 @@
+line break: <br>
+To present the content like we put in html. (with spaces, line breaks, etc)
+<pre></pre>
+
+bold:
+<strong></strong>	Importance, seriousness, urgency.
+<b></b>			For only visualize.
+
+
+italic:
+<em></em>		It's importatnt.
+<i></i>			For only visualize.
+
+
+Unorded lists:
+<ul>
+	<li></li>
+	<li></li>
+</ul>
+
+
+Orded lists:
+<ol>
+	<li></li>
+	<li></li>
+</ol>
+
+
+Definition or description lists:
+<dl>
+	<dt>Definition term</dt>
+	<dd>Definition</dd>
+	<dd>Definition</dd>
+
+	<dt>Definition term</dt>
+	<dd>Definition</dd>
+	<dd>Definition</dd>
+</dl>
+
+
+
+Quotes:
+Block content:
+<blockquote>
+<p>
+This is that he/she told.
+</p>
+
+<cite>He is the person who told that.</cite>
+</blockquote>
+
+
+Inline phrases:
+<p lang="en">Mark Zukumberg told ...<q>every people in the world should learn programming.</q></p>
+<p lang="es">Mark Zukumberg dijo ...<q>Todas las personas en el mundo deberían aprender a programar.</q></p>
+
+
+
+Date:
+<time datetime="2021-05-08">May 8 2021</time>
+<time datetime="2021-05-08">2021, May 8</time>
+<time datetime="2021-05-08">2 days ago</time>
+
+
+Time:
+<time datetime="20:15">8:15 pm</time>
+<time datetime="20:15:30.5">8:15:30.5 pm</time>
+datetime="hh:mm:ss.ddd+-hh:mm"
+			time zone
+
+<time datetime="2021-05-08T20:15">May 8 2021, 8:15pm</time>
+<time datetime="2021-05-08 20:15">May 8 2021, 8:15pm</time>
+
+
+
+Code for any programming language:
+<code>printf("Hola mundo")</code>
+
+Code for HTML:
+&lt;       =>        <
+&gt;       =>        >
+<code>&lt;H4</code>
+
+
