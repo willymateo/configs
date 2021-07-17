@@ -1,0 +1,9 @@
+ctrl + b  c			Create another session.
+ctrl + b  ,			Rename the current window.
+ctrl + b  w			List sessions and windows.
+ctrl + b  num			Jump to the session num.
+ctrl + b  "			Split the terminal in horizontal.
+ctrl + b  %			Split the terminal in vertical.
+ctrl + b  direction		Move to the session in the direccion.
+tmux kill-session -t num 	Exit the session num.
+

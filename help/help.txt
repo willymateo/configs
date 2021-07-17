@@ -1,0 +1,75 @@
+====================================================================
+Nano Vim
+====================================================================
+Básicos:
+u		Deshacer.
+ctrl + r	Rehacer.
+
+
+
+Movimientos del cursor:
+0		Mueve el cursor al INICIO de la línea actual.
+$		Mueve el cursor al FINAL de la línea actual.
+num + k		Mueve el cursor num líneas hacia arriba.
+w		Mueve el curso al INICIO de la siguiente palabra.
+e		Mueve el curso al FINAL de la siguiente palabra.
+gg		Mueve el cursor al INICIO del DOCUMENTO.
+G		Mueve el cursor al FINAL del DOCUMENTO.
+%		Mueve el cursor al {}, (), [] correspondiente.
+num + G		Mueve el cursor a la línea num.
+:num		Mueve el cursor a la línea num.
+
+
+
+Insertar:
+A		Insertar al FINAL de la línea.
+a		Insertar DESPUÉS del cursor.
+i		Insertar en la poscición ACTUAL.
+o		Insertar en la SIGUIENTE línea.
+O		Insertar en la línea de ARRIBA.
+p		Pega contenido del Buffer en la SIGUIENTE línea.
+P		Pega contenido del Buffer en la línea de ARRIBA.
+
+
+
+Eliminar:
+x		Eliminar el caracter ACTUAL.
+dw		Elimina la palabra actual.
+d + $		Elimina el contenido desde la poscición actual hasta el FINAL de la línea.
+d + 0		Elimina el contenido desde la poscición actual hasta el INICIO de la línea.
+d + op.mov.	Elimina el contenido desde el curso hasta el operador de movimiento.
+
+
+
+Reemplazar:
+ciw				Cambiar palabra.
+r				Reemplaza el caracter actual.
+R				Comienza a reemplazar todos los caracteres desde el actual.
+:%s/antigua/nueva/gc		Reemplaza TODAS las ocurrencias en el DOCUMENTO, preguntándome 1 por 1. Palabra antigua por palabra nueva.
+:s/antigua/nueva		Reemplaza la PRIMERA ocurrencia en la línea actual. Palabra antigua por palabra nueva.
+:s/antigua/nueva/g		Reemplaza TODAS las ocurrencias en la línea actual. Palabra antigua por palabra nueva.
+
+
+
+Busqueda:
+/palabra	Busca en el archivo (desde el PRINCIPIO al FINAL) una palabra y presionar INTRO. Con 'n' saltamos a la SIGUIENTE palabra de la búsqueda.
+?palabra	Busca en el archivo (desde el FINAL al PRINCIPIO) una palabra y presionar INTRO. Con 'n' saltamos a la ANTERIOR palabra de la búsqueda.
+gd		Muestra la definición de una variable, función u objeto dentro del MISMO ARCHIVO.
+gf		Muestra la definición de una variable, función u objeto en el ARCHIVO FUENTE (Puede ser otro).
+ctrl + o	Devuelve al anterior ARCHIVO u OBJETO que se haya navegado.
+ctrl + i	Avanza al siguiente ARCHIVO u OBJETO en la navegación.
+
+
+
+====================================================================
+Plugins
+====================================================================
+EasyMotion:
+Espacio + s	Entrar al modo easymotion.
+
+
+NerdTree:
+Espacio + nt	Entrar al modo NerdTree.
+m		Entrar al menu de NertTree.
+s		Abrir un ARCHIVO en la misma ventana.
+
