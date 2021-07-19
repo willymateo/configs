@@ -1,15 +1,32 @@
+==========================================================================
+Elements.
+==========================================================================
 line break: <br>
-To present the content like we put in html. (with spaces, line breaks, etc)
+To present the content like we write. (with spaces, line breaks, etc):
 <pre></pre>
 
 bold:
 <strong></strong>	Importance, seriousness, urgency.
 <b></b>			For only visualize.
 
-
 italic:
 <em></em>		It's importatnt.
 <i></i>			For only visualize.
+
+Superscript:
+<sup>content in superscript</sup>
+
+Subscript:
+<sub>content in subscript</sub>
+
+Comments:
+<!--
+Content of the comment.
+-->
+
+links:
+<a href="www.example.com">this is a link. Is recomendable put te http or https.</a>
+
 
 
 Unorded lists:
@@ -18,13 +35,11 @@ Unorded lists:
 	<li></li>
 </ul>
 
-
 Orded lists:
 <ol>
 	<li></li>
 	<li></li>
 </ol>
-
 
 Definition or description lists:
 <dl>
@@ -39,16 +54,25 @@ Definition or description lists:
 
 
 
+Navegation:
+<nav role="navegation">
+<ul class="navbar">
+	<li><a href="/">Home</a></li>
+	<li><a href="/People">People</a></li>
+	<li><a href="/Contact">Contact</a></li>
+</ul>
+</nav>
+
+
+
 Quotes:
 Block content:
 <blockquote>
 <p>
 This is that he/she told.
 </p>
-
 <cite>He is the person who told that.</cite>
 </blockquote>
-
 
 Inline phrases:
 <p lang="en">Mark Zukumberg told ...<q>every people in the world should learn programming.</q></p>
@@ -60,7 +84,6 @@ Date:
 <time datetime="2021-05-08">May 8 2021</time>
 <time datetime="2021-05-08">2021, May 8</time>
 <time datetime="2021-05-08">2 days ago</time>
-
 
 Time:
 <time datetime="20:15">8:15 pm</time>
@@ -77,8 +100,30 @@ Code for any programming language:
 <code>printf("Hola mundo")</code>
 
 Code for HTML:
-&lt;       =>        <
-&gt;       =>        >
+&lt;       	=>	<
+&gt;       	=>	>
+&amp		=>	&
+&copy		=>	copyright symbol.
 <code>&lt;H4</code>
 
+<p>Willy&nbsp;Mateo. The words Willy and Mateo wont be separeate in the break line.</p>
+
+==========================================================================
+Arguments.
+==========================================================================
+Universal arguments.
+<p class="classname">any content</p>		Many elements can have the same name of class.
+<p id="idname">any content</p>			ID is unique.
+<p contenteditable="true">any content</p>	The content can be edit by users.
+<p lang="es">cualquier contenido</p>		The content is in that language.
+<p dir="ltr">Text from left to rigth</p>	The text flows from left to rigth.
+<p dir="rtl">Text from rigth to left</p>	The text flows from rigth to left.
+
+
+
+==========================================================================
+tags without close tag.
+==========================================================================
+Images:
+<image src="it can be the path or url" alt="in this, you must put a description of the image." height="300" weight="400">
 
