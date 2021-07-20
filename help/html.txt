@@ -4,43 +4,57 @@ Elements.
 line break: <br>
 To present the content like we write. (with spaces, line breaks, etc):
 <pre></pre>
-
+--------------------------------------------------------------------------
 bold:
 <strong></strong>	Importance, seriousness, urgency.
 <b></b>			For only visualize.
-
+--------------------------------------------------------------------------
 italic:
 <em></em>		It's importatnt.
 <i></i>			For only visualize.
-
+--------------------------------------------------------------------------
 Superscript:
 <sup>content in superscript</sup>
-
+--------------------------------------------------------------------------
 Subscript:
 <sub>content in subscript</sub>
-
+--------------------------------------------------------------------------
 Comments:
 <!--
 Content of the comment.
 -->
-
+--------------------------------------------------------------------------
 links:
 <a href="www.example.com">this is a link. Is recomendable put te http or https.</a>
-
-
-
+--------------------------------------------------------------------------
+Picture:
+<picture>
+<source>
+<img src="it can be the path or url"
+alt="in this, you must put a description of the image."
+height="300" weight="400">
+</picture>
+--------------------------------------------------------------------------
+Figure:
+<figure>
+<img src="it can be the path or url"
+alt="in this, you must put a description of the image."
+height="300" weight="400">
+<figcaption>The visible description of the image. It will be the size of the width image.</figcaption>
+</figure>
+--------------------------------------------------------------------------
 Unorded lists:
 <ul>
 	<li></li>
 	<li></li>
 </ul>
-
+--------------------------------------------------------------------------
 Orded lists:
 <ol>
 	<li></li>
 	<li></li>
 </ol>
-
+--------------------------------------------------------------------------
 Definition or description lists:
 <dl>
 	<dt>Definition term</dt>
@@ -51,9 +65,7 @@ Definition or description lists:
 	<dd>Definition</dd>
 	<dd>Definition</dd>
 </dl>
-
-
-
+--------------------------------------------------------------------------
 Navegation:
 <nav role="navegation">
 <ul class="navbar">
@@ -62,9 +74,7 @@ Navegation:
 	<li><a href="/Contact">Contact</a></li>
 </ul>
 </nav>
-
-
-
+--------------------------------------------------------------------------
 Quotes:
 Block content:
 <blockquote>
@@ -73,29 +83,24 @@ This is that he/she told.
 </p>
 <cite>He is the person who told that.</cite>
 </blockquote>
-
+--------------------------------------------------------------------------
 Inline phrases:
 <p lang="en">Mark Zukumberg told ...<q>every people in the world should learn programming.</q></p>
 <p lang="es">Mark Zukumberg dijo ...<q>Todas las personas en el mundo deberían aprender a programar.</q></p>
-
-
-
+--------------------------------------------------------------------------
 Date:
 <time datetime="2021-05-08">May 8 2021</time>
 <time datetime="2021-05-08">2021, May 8</time>
 <time datetime="2021-05-08">2 days ago</time>
-
+--------------------------------------------------------------------------
 Time:
 <time datetime="20:15">8:15 pm</time>
 <time datetime="20:15:30.5">8:15:30.5 pm</time>
 datetime="hh:mm:ss.ddd+-hh:mm"
 			time zone
-
 <time datetime="2021-05-08T20:15">May 8 2021, 8:15pm</time>
 <time datetime="2021-05-08 20:15">May 8 2021, 8:15pm</time>
-
-
-
+--------------------------------------------------------------------------
 Code for any programming language:
 <code>printf("Hola mundo")</code>
 
@@ -125,5 +130,26 @@ Universal arguments.
 tags without close tag.
 ==========================================================================
 Images:
-<image src="it can be the path or url" alt="in this, you must put a description of the image." height="300" weight="400">
+<img src="it can be the path or url"
+alt="in this, you must put a description of the image."
+height="300" weight="400">
+--------------------------------------------------------------------------
+Responsive Images by pixels density:
+<img src="it can be the path or url"
+alt="in this, you must put a description of the image."
+height="300" weight="400"
+srcset="ulr1 2x,
+url2 3x,
+url3 4x, ...">
+--------------------------------------------------------------------------
+Responsive Images by width:
+<img src="it can be the path or url"
+alt="in this, you must put a description of the image."
+height="300" weight="400"
+srcset="ulr1 480w,
+url2 960w,
+url3 1440w,
+url4 1920w, ...">
+
+
 
