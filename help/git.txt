@@ -1,0 +1,18 @@
+==========================================================================
+git
+==========================================================================
+git log				Show all repositorie commits and their description.
+git diff file			Show the differnce between the changes of the file and the last commit.
+
+git checkout file 		Return the file to the version of the last commit.
+git checkout branch 		Move to the branch 'branch'.
+
+git branch 			Show all branchs of the repositorie.
+git branch newbranch 		Create a new branch 'newbranch'.
+
+
+==========================================================================
+github
+==========================================================================
+gist				To share code blocks to friends.
+projects			To manage and develp software in team.
