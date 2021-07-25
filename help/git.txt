@@ -1,6 +1,18 @@
 ==========================================================================
+gitflow
+==========================================================================
+develop				Branch to develop.
+master				Branch Master.
+feature				Branch with new feature to put in develop.
+hotfix				Branch to correct a error in master, after update master and develop.
+
+
+==========================================================================
 git
 ==========================================================================
+git fetch			Verify if exists changes in remote repositorie.
+git pull			Download changes of remote repositorie.
+
 git log				Show all repositorie commits and their description.
 git diff file			Show the differnce between the changes of the file and the last commit.
 
@@ -16,3 +28,4 @@ github
 ==========================================================================
 gist				To share code blocks to friends.
 projects			To manage and develp software in team.
+
