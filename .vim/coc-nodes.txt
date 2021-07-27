@@ -1,0 +1,37 @@
+CSS
+:CocInstall coc-css
+
+
+HTML
+:CocInstall coc-html
+
+
+Javascript
+:CocInstall coc-tsserver
+
+
+Json
+:CocInstall coc-json
+
+
+Markdown
+:CocInstall coc-markdownlint
+
+
+Python
+:CocInstall coc-pyright
+
+
+C/C++/Objective C
+Faltaaaaa
+:CocInstall coc-clangd
+
+
+CMake
+No implemented with LSP
+:CocInstall coc-cmake
+
+
+Kotlin
+
+
