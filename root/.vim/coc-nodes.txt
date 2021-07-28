@@ -23,8 +23,9 @@ Python
 
 
 C/C++/Objective C
-Faltaaaaa
 :CocInstall coc-clangd
+:CocCommand clangd.install
+sudo apt install clangd
 
 
 CMake
