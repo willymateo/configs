@@ -45,9 +45,9 @@ Reemplazar:
 ciw				Cambiar palabra.
 r				Reemplaza el caracter actual.
 R				Comienza a reemplazar todos los caracteres desde el actual.
-:%s/antigua/nueva/gc		Reemplaza TODAS las ocurrencias en el DOCUMENTO, preguntándome 1 por 1. Palabra antigua por palabra nueva.
 :s/antigua/nueva		Reemplaza la PRIMERA ocurrencia en la línea actual. Palabra antigua por palabra nueva.
 :s/antigua/nueva/g		Reemplaza TODAS las ocurrencias en la línea actual. Palabra antigua por palabra nueva.
+:%s/antigua/nueva/gc		Reemplaza TODAS las ocurrencias en el DOCUMENTO, preguntándome 1 por 1. Palabra antigua por palabra nueva.
 
 
 

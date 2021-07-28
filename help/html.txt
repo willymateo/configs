@@ -1,7 +1,8 @@
 ==========================================================================
-Elements.
+Content.
 ==========================================================================
 line break: <br>
+--------------------------------------------------------------------------
 To present the content like we write. (with spaces, line breaks, etc):
 <pre></pre>
 --------------------------------------------------------------------------
@@ -10,7 +11,7 @@ bold:
 <b></b>			For only visualize.
 --------------------------------------------------------------------------
 italic:
-<em></em>		It's importatnt.
+<em></em>		It's important.
 <i></i>			For only visualize.
 --------------------------------------------------------------------------
 Superscript:
@@ -23,10 +24,40 @@ Comments:
 <!--
 Content of the comment.
 -->
+
+
 --------------------------------------------------------------------------
 links:
 <a href="www.example.com">this is a link. Is recomendable put te http or https.</a>
 --------------------------------------------------------------------------
+Section:
+<section>
+	Here must be the main content.
+</section>
+--------------------------------------------------------------------------
+Aside:
+<aside>
+	Here must be the content less important than the content of section.
+</aside>
+--------------------------------------------------------------------------
+Hgroup:
+<hgroup>
+	<h1>Title</h1>
+	<h2>Subtitle</h2>
+</hgroup>
+--------------------------------------------------------------------------
+Address:
+<address>
+	<a href="www.example.com">this is a link. Is recomendable put te http or https.</a>
+</address>
+--------------------------------------------------------------------------
+<footer> This could be on the bottom of the web page or in the bottom of the any block element</footer>
+--------------------------------------------------------------------------
+
+
+
+
+
 Picture:
 <picture>
 <source>
@@ -43,6 +74,35 @@ height="300" weight="400">
 <figcaption>The visible description of the image. It will be the size of the width image.</figcaption>
 </figure>
 --------------------------------------------------------------------------
+Date:
+<time datetime="2021-05-08">May 8 2021</time>
+<time datetime="2021-05-08">2021, May 8</time>
+<time datetime="2021-05-08">2 days ago</time>
+--------------------------------------------------------------------------
+Time:
+<time datetime="20:15">8:15 pm</time>
+<time datetime="20:15:30.5">8:15:30.5 pm</time>
+datetime="hh:mm:ss.ddd+-hh:mm"
+			time zone
+<time datetime="2021-05-08T20:15">May 8 2021, 8:15pm</time>
+<time datetime="2021-05-08 20:15">May 8 2021, 8:15pm</time>
+--------------------------------------------------------------------------
+Code for any programming language:
+<code>printf("Hola mundo")</code>
+
+Code for HTML:
+&lt;       	=>	<
+&gt;       	=>	>
+&amp		=>	&
+&copy		=>	copyright symbol.
+<code>&lt;H4</code>
+
+<p>Willy&nbsp;Mateo. The words Willy and Mateo wont be separeate in the break line.</p>
+
+
+==========================================================================
+Lists.
+==========================================================================
 Unorded lists:
 <ul>
 	<li></li>
@@ -87,31 +147,7 @@ This is that he/she told.
 Inline phrases:
 <p lang="en">Mark Zukumberg told ...<q>every people in the world should learn programming.</q></p>
 <p lang="es">Mark Zukumberg dijo ...<q>Todas las personas en el mundo deberían aprender a programar.</q></p>
---------------------------------------------------------------------------
-Date:
-<time datetime="2021-05-08">May 8 2021</time>
-<time datetime="2021-05-08">2021, May 8</time>
-<time datetime="2021-05-08">2 days ago</time>
---------------------------------------------------------------------------
-Time:
-<time datetime="20:15">8:15 pm</time>
-<time datetime="20:15:30.5">8:15:30.5 pm</time>
-datetime="hh:mm:ss.ddd+-hh:mm"
-			time zone
-<time datetime="2021-05-08T20:15">May 8 2021, 8:15pm</time>
-<time datetime="2021-05-08 20:15">May 8 2021, 8:15pm</time>
---------------------------------------------------------------------------
-Code for any programming language:
-<code>printf("Hola mundo")</code>
 
-Code for HTML:
-&lt;       	=>	<
-&gt;       	=>	>
-&amp		=>	&
-&copy		=>	copyright symbol.
-<code>&lt;H4</code>
-
-<p>Willy&nbsp;Mateo. The words Willy and Mateo wont be separeate in the break line.</p>
 
 ==========================================================================
 Arguments.
