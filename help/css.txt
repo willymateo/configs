@@ -41,3 +41,9 @@ The element with the id.
 //css
 }
 
+
+==========================================================================
+Add styles to elements.
+==========================================================================
+margin 		Since the element to outside.
+padding 	Since the element to inside.
