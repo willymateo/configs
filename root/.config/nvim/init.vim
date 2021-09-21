@@ -9,6 +9,7 @@ set termguicolors  		"Activa true colors en la terminal.
 set encoding=UTF-8 		"Tipo de escritura.
 set relativenumber 		"Números relativos en la regla.
 set clipboard=unnamed
+set clipboard=unnamedplus
 set numberwidth=1 	
 set background=dark
 
