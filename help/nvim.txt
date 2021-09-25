@@ -1,5 +1,5 @@
 ====================================================================
-Neo Vim
+NeoVim
 ====================================================================
 Básicos:
 u		Deshacer.
@@ -69,7 +69,13 @@ Espacio + s	Entrar al modo easymotion.
 
 
 NerdTree:
-Espacio + nt	Entrar al modo NerdTree.
+<Leader> + nt	Entrar al modo NerdTree.
 m		Entrar al menu de NertTree.
-s		Abrir un ARCHIVO en la misma ventana.
+s		Abrir un ARCHIVO en la misma ventana de forma vertical.
+i 		Abrir un ARCHIVO en la misma ventana de forma horizontal.
 
+
+Commenter:
+<Leader>cc 	Comment.
+<Leader>cu 	Uncomment.
+<Leader>ci 	Alternate.

@@ -18,7 +18,6 @@ nmap <Leader>s <Plug>(easymotion-s2)
 "Nerd-Tree.
 "==========================================================================
 nmap <Leader>nt :NERDTreeFind<CR>
-let NERDTreeQuitOnOpen=1
 "==========================================================================
 
 
