@@ -1,12 +1,15 @@
 call plug#begin()
 
-"GUI
+"Apparence.
 Plug 'morhetz/gruvbox' "Theme.
-Plug 'itchyny/lightline.vim' "Status bar.
-Plug 'preservim/nerdtree' "File explorer - tree.
 Plug 'ryanoasis/vim-devicons' "Icons on the tree.
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'Yggdroot/indentLine' "Show lines of indent.
 Plug 'mhinz/vim-signify' "Show the lines added, modified and deleted.
+
+"GUI
+Plug 'vim-airline/vim-airline' "Status bar.
+Plug 'preservim/nerdtree' "File explorer - tree.
 Plug 'sheerun/vim-polyglot' "Languajes pack, highligthing and indent.
 
 "Git
