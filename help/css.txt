@@ -14,36 +14,68 @@ styles.css
 @import url('styles/buttons.css');
 
 ==========================================================================
-Add styles to elements.
+Selectors.
 ==========================================================================
-All document.
+All elements in the document. Only applies to elements that haven't modified before.
 * {
 //css
 }
 
-All elements elementhtml.
+All elements 'elementhtml'.
 elementhtml {
 //css
 }
 
-All elements with attribute.
+All elements 'elementhtml' with attribute.
 elementhtml[attribute] {
 //css
 }
 
-All elements with class.
+All elements with class 'class'.
 .class {
 //css
 }
 
-The element with the id.
+The element with the id 'id'.
 #id {
 //css
 }
 
+All elements 'elem1' in the element 'elem2'.
+elem2 elem1 {
+//css
+}
+
+All elements with class 'class' in the element 'elementhtml'.
+elementhtml.class {
+//css
+}
 
 ==========================================================================
 Add styles to elements.
 ==========================================================================
 margin 		Since the element to outside.
 padding 	Since the element to inside.
+outline		Border between margin and border.
+opacity		The transparency of the element.
+overflow	The content that not is possible show in the element will be (hidden), (visible) or (scroll).
+
+text-decoration	underline, overline, line-throught.
+text-shadow	Shadow of the text.
+font-family
+
+==========================================================================
+State selectors.
+==========================================================================
+link		Normal link.
+visited		Visited link.
+hover		When pass the cursor over the link.
+active		When keep press a link.
+
+==========================================================================
+Position.
+==========================================================================
+relative	Relativo a donde debería estar.
+fixed		Con respecto a la ventana del explorador.
+absolute	Relativo al elemento padre más cercano.
+sticky		Combinación de static y fixed. Comienza a moverse en conjunto con la ventana cuando el elemento es visible.

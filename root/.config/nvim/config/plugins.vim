@@ -6,6 +6,7 @@ Plug 'ryanoasis/vim-devicons' "Icons on the tree.
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'Yggdroot/indentLine' "Show lines of indent.
 Plug 'mhinz/vim-signify' "Show the lines added, modified and deleted.
+Plug 'vim-airline/vim-airline-themes' "Themes for Airline.
 
 "GUI
 Plug 'vim-airline/vim-airline' "Status bar.

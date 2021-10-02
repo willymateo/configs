@@ -33,6 +33,7 @@ colorscheme gruvbox
 "==========================================================================
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
+let g:airline_theme='wombat'
 "==========================================================================
 
 
@@ -84,6 +85,6 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 "set expandtab
 set tabstop=8
 set softtabstop=8
-"set shiftwidth=8
+set shiftwidth=8
 set sw=8 "Setea el ancho de la identacion.
 "==========================================================================

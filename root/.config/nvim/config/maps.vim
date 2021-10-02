@@ -4,6 +4,8 @@
 let mapleader=" "
 nmap <Leader>w :w<CR> 
 nmap <Leader>q :q<CR> 
+nmap <C-j> gT
+nmap <C-k> gt
 "==========================================================================
 
 
@@ -17,7 +19,7 @@ nmap <Leader>s <Plug>(easymotion-s2)
 "==========================================================================
 "Nerd-Tree.
 "==========================================================================
-nmap <Leader>nt :NERDTreeRefreshRoot <CR> :NERDTree /home/ghostos/ <CR> :NERDTreeFind <CR>
+nmap <Leader>nt :NERDTree /home/ghostos/ <CR> :NERDTreeFind <CR>
 "==========================================================================
 
 
