@@ -2,10 +2,16 @@
 "Nvim Maps.
 "==========================================================================
 let mapleader=" "
+"Write and exit
 nmap <Leader>w :w<CR> 
 nmap <Leader>q :q<CR> 
+
+"Change the tabs
 nmap <C-j> gT
 nmap <C-k> gt
+
+"Autotab
+nmap <Leader><TAB> =G
 "==========================================================================
 
 
@@ -29,3 +35,4 @@ nmap <Leader>nt :NERDTree /home/ghostos/ <CR> :NERDTreeFind <CR>
 "Python
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+

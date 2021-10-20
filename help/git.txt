@@ -2,7 +2,7 @@
 git
 ==========================================================================
 git fetch			Verify if exists changes in remote repositorie.
-git pull			Download changes of remote repositorie.
+git pull			Download changes of remote repositorie. Do a git fetch followed by git merge FETCH_HEAD.
 
 git log				Show all repositorie commits and their description.
 git commit --amend 		Change the message of the last commit.

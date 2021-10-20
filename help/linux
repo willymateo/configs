@@ -1,0 +1,3 @@
+sudo apt --purge remove packagename
+sudo dpkg -i *.deb
+tar -xf *.tar|tar.gz
