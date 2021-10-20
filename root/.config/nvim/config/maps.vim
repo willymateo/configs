@@ -7,8 +7,8 @@ nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR> 
 
 "Change the tabs
-nmap <C-j> gT
-nmap <C-k> gt
+nmap <Leader>j gT
+nmap <Leader>k gt
 
 "Autotab
 nmap <Leader><TAB> =G
