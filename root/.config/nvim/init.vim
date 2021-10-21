@@ -24,11 +24,11 @@ set incsearch			"Incremental search, in search jump automatically to the next ma
 "Default configs - I think it isn't important
 "==========================================================================
 syntax on
-set nocompatible "For vim polyglot.
+set nocompatible		"For vim polyglot.
 set showcmd
-set ruler			"Muestra la regla a la izquierda.
-set showmatch			"Resalta el parentesis correspondiente.
-set laststatus=2		"Muestrar siempre la barra de estado.
+set ruler			"Show the left ruler.
+set showmatch			"highlight the parenthesis, keys... matched.
+set laststatus=2		"Show always the status bar.
 filetype plugin on
 "==========================================================================
 
