@@ -1,10 +1,15 @@
 {
   "settingsVersion": "1.67",
-  "exclusionRules": [],
+  "exclusionRules": [
+    {
+      "pattern": "https?://madebyevan.com/*",
+      "passKeys": ""
+    }
+  ],
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "map <A-j> previousTab\nmap <A-k> nextTab\nmap <A-h> goBack\nmap <A-l> goForward\nunmap J\nunmap K\nunmap H\nunmap L",
+  "keyMappings": "map <A-j> previousTab\nmap <A-k> nextTab\nmap <A-h> goBack\nmap <A-l> goForward\nmap t Vomnibar.activateInNewTab\nunmap O\nunmap J\nunmap K\nunmap H\nunmap L",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",

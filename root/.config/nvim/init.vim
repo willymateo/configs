@@ -1,34 +1,31 @@
-set encoding=UTF-8		"Tipo de escritura.
-set title			"Visualiza el título del doc.
-set nowrap			"No dividir la línea si es muy larga.
-set cursorline			"Resalta la línea actual.
-set termguicolors		"Activa true colors en la terminal.
-set number			"Regla de números.
-set relativenumber		"Números relativos en la regla.
-set mouse=a			"Permite la integración del mouse (seleccionar texto, mover el cursor).
-set clipboard=unnamed		"Sincronizar el portapapeles del sistema con nvim.
-set clipboard=unnamedplus	"Sincronizar el portapapeles del sistema con nvim.
-set timeoutlen=500		"Setea el timepo de espera para combinaciones y mapeos.
-set numberwidth=1
-set background=dark
+set encoding=UTF-8		"Writting type.
+set title			"Show the doc type.
+set nowrap			"Dont divide the line if it's so large.
+set cursorline			"Highlight the current line.
+set termguicolors		"Enable true colors.
+set number			"Show the numbers in the ruler.
+set relativenumber		"Show relative numbers in the ruler.
+set mouse=a			"Allow the mouse integration for select text and move cursor.
+set clipboard=unnamed		"Synchonizate the system clipboard with nvim.
+set clipboard=unnamedplus	"Synchonizate the system clipboard with nvim.
+set timeoutlen=500		"Set the wait time for maps and combinations.
+set numberwidth=1		"Set the minimium width of the numbers in the ruler.
+syntax on			"Enable highlight.
+set showmatch			"highlight the parenthesis, keys... matched.
 
 "==========================================================================
 "Search
 "==========================================================================
-set ignorecase  		"Ignorar mayúsculas al hacer una búsqueda.
-set incsearch			"Incremental search, in search jump automatically to the next match
+set ignorecase  		"No lowercase in searchs.
 "==========================================================================
 
 
 "==========================================================================
 "Default configs - I think it isn't important
 "==========================================================================
-syntax on
-set nocompatible		"For vim polyglot.
-set showcmd
+set background=dark		"Background.
 set ruler			"Show the left ruler.
-set showmatch			"highlight the parenthesis, keys... matched.
-set laststatus=2		"Show always the status bar.
+set nocompatible		"For vim polyglot.
 filetype plugin on
 "==========================================================================
 
