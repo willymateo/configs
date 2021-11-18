@@ -32,7 +32,6 @@ CMake
 No implemented with LSP
 :CocInstall coc-cmake
 
-
-Kotlin
-
-
+Flutter/Dart
+:CocInstall coc-flutter
+https://github.com/iamcco/coc-flutter

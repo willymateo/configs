@@ -25,7 +25,6 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'easymotion/vim-easymotion'		"Jump in the words.
 Plug 'christoomey/vim-tmux-navigator'		"Jump between windows.
 Plug 'preservim/nerdcommenter'			"Comment lines easily.
-Plug 'dyng/ctrlsf.vim'				"Search and edit multiples docs.
 
 "Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	"COC
