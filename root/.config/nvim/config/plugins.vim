@@ -2,13 +2,13 @@ call plug#begin()
 
 "Apparence.
 Plug 'morhetz/gruvbox'				"Theme.
-Plug 'Yggdroot/indentLine'			"Show lines of indent.
 Plug 'mhinz/vim-signify'			"Show the lines added, modified and deleted.
 Plug 'vim-airline/vim-airline-themes'		"Themes for Airline.
 
 "GUI
 Plug 'vim-airline/vim-airline'			"Status bar.
 Plug 'sheerun/vim-polyglot'			"Languajes pack, highligthing and indent.
+Plug 'Yggdroot/indentLine'			"Show lines of indent.
 
 "Git
 Plug 'tpope/vim-fugitive'			"Use git inside vim.
@@ -30,5 +30,9 @@ Plug 'preservim/nerdcommenter'			"Comment lines easily.
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	"COC
 Plug 'alvan/vim-closetag'			"Close html tags.
 Plug 'jiangmiao/auto-pairs'			"Autoclose pharentesis, keys ...
+
+"React
+Plug 'SirVer/ultisnips'				"Use snippets.
+Plug 'mlaursen/vim-react-snippets'		"React snippets.
 
 call plug#end()

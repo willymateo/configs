@@ -11,7 +11,7 @@ so ~/.config/nvim/config/coc-configs.vim
 "Victor NF medium
 "FantasqueSansMono nerd Font regular
 let g:gruvbox_contrast_dark = "hard"
-let g:gruvbox_italic =1 
+let g:gruvbox_italic =1
 let g:gruvbox_transparent_bg=1
 colorscheme gruvbox
 "==========================================================================
@@ -44,14 +44,6 @@ let g:signify_sign_change= '~'
 
 
 "==========================================================================
-"IndentLine.
-"==========================================================================
-:set list lcs=tab:\▏\ 
-let g:indentLine_setColors = 0
-"==========================================================================
-
-
-"==========================================================================
 "NerdTree.
 "==========================================================================
 let NERDTreeAutoDeleteBuffer=1
@@ -68,14 +60,24 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 
 
 "==========================================================================
+"IndentLine.
+"==========================================================================
+:set list lcs=tab:\|\ 
+let g:indentLine_char_list = ['║', '╽', '▏', '|', '¦', '┆']
+let g:indentLine_color_term = 051
+let g:indentLine_bgcolor_term = 051
+"==========================================================================
+
+
+"==========================================================================
 "VimPolyglot.
 "==========================================================================
 "filetype indent on
 "set expandtab
-set tabstop=8
-set softtabstop=8
-set shiftwidth=8
-set sw=8 "Setea el ancho de la identacion.
+"set tabstop=8
+"set softtabstop=8
+"set shiftwidth=8
+"set sw=8 "Setea el ancho de la identacion.
 "==========================================================================
 
 
@@ -85,3 +87,4 @@ set sw=8 "Setea el ancho de la identacion.
 let g:NERDTreeGitStatusShowIgnored = 1 " a heavy feature may cost much more time. default: 0
 let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
 let g:NERDTreeGitStatusUntrackedFilesMode = 'all' " a heavy feature too. default: normal
+
