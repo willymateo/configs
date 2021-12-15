@@ -5,7 +5,8 @@
 export ZSH="/home/ghostos/.oh-my-zsh"
 
 #ZSH_THEME="flazz"
-ZSH_THEME="lambda"
+source $ZSH/zsh-git-prompt/zshrc.sh
+ZSH_THEME="ghostos"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -102,7 +103,7 @@ autoload -U compinit && compinit
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #alias ls="ls -lhsX --color"
-alias ls="ls -lsX --color"
+alias ls="ls -alsX --color"
 
 
 export NVM_DIR="$HOME/.nvm"

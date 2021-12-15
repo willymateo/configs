@@ -8,8 +8,6 @@ so ~/.config/nvim/config/coc-configs.vim
 "==========================================================================
 "Gruvbox.
 "==========================================================================
-"Victor NF medium
-"FantasqueSansMono nerd Font regular
 let g:gruvbox_contrast_dark = "hard"
 let g:gruvbox_italic =1
 let g:gruvbox_transparent_bg=1
@@ -63,21 +61,9 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 "IndentLine.
 "==========================================================================
 :set list lcs=tab:\|\ 
-let g:indentLine_char_list = ['║', '╽', '│', '|', '¦', '┋']
+let g:indentLine_char_list = ['║', '│', '|', '¦', '┋']
 let g:indentLine_color_gui = '#61AFEF'
 "let g:indentLine_bgcolor_gui = '#FF5F00'
-"==========================================================================
-
-
-"==========================================================================
-"VimPolyglot.
-"==========================================================================
-"filetype indent on
-"set expandtab
-"set tabstop=8
-"set softtabstop=8
-"set shiftwidth=8
-"set sw=8 "Setea el ancho de la identacion.
 "==========================================================================
 
 
