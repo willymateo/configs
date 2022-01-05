@@ -73,4 +73,14 @@ let g:indentLine_color_gui = '#61AFEF'
 let g:NERDTreeGitStatusShowIgnored = 1 " a heavy feature may cost much more time. default: 0
 let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
 let g:NERDTreeGitStatusUntrackedFilesMode = 'all' " a heavy feature too. default: normal
+"==========================================================================
 
+
+"==========================================================================
+"SirVer/ultisnips.
+"==========================================================================
+let g:UltiSnipsExpandTrigger="<>"
+let g:UltiSnipsJumpForwardTrigger="<Tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
+let g:UltiSnipsEditSplit="vertical"
+"==========================================================================

@@ -32,7 +32,8 @@ Plug 'alvan/vim-closetag'													"Close html tags.
 Plug 'jiangmiao/auto-pairs'												"Autoclose pharentesis, keys ...
 
 "React
-Plug 'SirVer/ultisnips'														"Use snippets.
-Plug 'mlaursen/vim-react-snippets'								"React snippets.
+Plug 'SirVer/ultisnips'														"Engine of snippets.
+Plug 'honza/vim-snippets'                         "Default snippets.
+"Plug 'mlaursen/vim-react-snippets'								"React snippets.
 
 call plug#end()
