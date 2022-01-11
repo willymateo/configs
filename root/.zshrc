@@ -104,6 +104,7 @@ autoload -U compinit && compinit
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #alias ls="ls -lhsX --color"
 alias ls="ls -alsX --color"
+alias pip=pip3
 
 
 export NVM_DIR="$HOME/.nvm"
