@@ -105,7 +105,7 @@ autoload -U compinit && compinit
 #alias ls="ls -lhsX --color"
 alias ls="ls -alsX --color"
 alias pip=pip3
-
+alias bat=batcat
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

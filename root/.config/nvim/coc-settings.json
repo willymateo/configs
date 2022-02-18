@@ -1,5 +1,6 @@
 {
 	"coc.preferences.extensionUpdateCheck" : "daily",
+	"eslint.alwaysShowStatus": true,
 	"languageserver": {
 		//CMake
 		//https://github.com/regen100/cmake-language-server

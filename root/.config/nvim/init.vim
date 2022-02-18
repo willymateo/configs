@@ -12,9 +12,7 @@ set timeoutlen=500		"Set the wait time for maps and combinations.
 set numberwidth=1		"Set the minimium width of the numbers in the ruler.
 syntax on			"Enable highlight.
 set showmatch			"highlight the parenthesis, keys... matched.
-"Indent: spaces by tabs
-set expandtab
-set smarttab
+
 
 "==========================================================================
 "Search

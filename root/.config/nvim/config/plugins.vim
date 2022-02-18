@@ -3,7 +3,8 @@ call plug#begin()
 "Apparence.
 Plug 'morhetz/gruvbox'														"Theme.
 Plug 'mhinz/vim-signify'													"Show the lines added, modified and deleted.
-Plug 'vim-airline/vim-airline-themes'							"Themes for Airline.
+Plug 'vim-airline/vim-airline-themes'                 "Themes for Airline.
+Plug 'kevinoid/vim-jsonc'                             "Sintax highligthing for comments in json files.
 
 "GUI
 Plug 'vim-airline/vim-airline'										"Status bar.
