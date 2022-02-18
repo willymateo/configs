@@ -1,3 +1,14 @@
+" Coc extensions.
+let g:coc_global_extensions = [
+      \'coc-git',
+      \'coc-css',
+      \'coc-html',
+      \'coc-json',
+      \'coc-markdownlint',
+      \'coc-tsserver',
+      \'coc-pyright',
+      \]
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
@@ -44,7 +55,7 @@ endif
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+      \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.

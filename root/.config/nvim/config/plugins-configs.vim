@@ -2,6 +2,9 @@
 "Coc
 "==========================================================================
 so ~/.config/nvim/config/coc-configs.vim
+
+"coc-css for scss files
+autocmd FileType scss setl iskeyword+=@-@
 "==========================================================================
 
 
@@ -63,7 +66,6 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 :set list lcs=tab:\|\ 
 let g:indentLine_char_list = ['║', '│', '|', '¦', '┋']
 let g:indentLine_color_gui = '#61AFEF'
-"let g:indentLine_bgcolor_gui = '#FF5F00'
 "==========================================================================
 
 
