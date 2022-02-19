@@ -1,20 +1,8 @@
 {
 	"coc.preferences.extensionUpdateCheck" : "daily",
 	"eslint.alwaysShowStatus": true,
+	"xml.java.home": "/usr/lib/jvm/java-8-openjdk-amd64",
 	"languageserver": {
-		//CMake
-		//https://github.com/regen100/cmake-language-server
-		"cmake": {
-			"command": "cmake-language-server",
-			"filetypes": ["cmake"],
-			"rootPatterns": [
-				"build/"
-			],
-			"initializationOptions": {
-				"buildDirectory": "build"
-			}
-		},
-
 		//C, C++, Objective-C
 		"clangd": {
 			"command": "clangd",
