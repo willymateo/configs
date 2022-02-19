@@ -1,15 +1,10 @@
 {
   "settingsVersion": "1.67",
-  "exclusionRules": [
-    {
-      "pattern": "https?://madebyevan.com/*",
-      "passKeys": ""
-    }
-  ],
+  "exclusionRules": [],
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "map <A-j> previousTab\nmap <A-k> nextTab\nmap <A-h> goBack\nmap <A-l> goForward\nmap t Vomnibar.activateInNewTab\nmap m toggleMuteTab\nmap e Vomnibar.activateEditUrl\n\nunmap <a-m>\nunmap gt\nunmap gT\nunmap O\nunmap J\nunmap K\nunmap H\nunmap L\nunmap ge",
+  "keyMappings": "map <A-j> previousTab\nmap <A-k> nextTab\nmap <A-h> goBack\nmap <A-l> goForward\nmap t Vomnibar.activateBookmarksInNewTab\nmap m toggleMuteTab\nmap e Vomnibar.activateEditUrl\n\nunmap <a-m>\nunmap gt\nunmap gT\nunmap O\nunmap J\nunmap K\nunmap H\nunmap L\nunmap ge\nunmap B",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
