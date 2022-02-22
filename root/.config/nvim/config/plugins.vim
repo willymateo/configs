@@ -31,6 +31,7 @@ Plug 'preservim/nerdcommenter'										"Comment lines easily.
 Plug 'neoclide/coc.nvim', {'branch': 'release'}		"COC
 Plug 'alvan/vim-closetag'													"Close html tags.
 Plug 'jiangmiao/auto-pairs'												"Autoclose pharentesis, keys ...
+Plug 'github/copilot.vim'                             "Suggests line completions.
 
 "React
 "Plug 'SirVer/ultisnips'														"Engine of snippets.

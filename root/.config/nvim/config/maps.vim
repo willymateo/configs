@@ -26,7 +26,6 @@ nmap <Leader>s <Plug>(easymotion-s2)
 "Nerd-Tree.
 "==========================================================================
 nmap <Leader>nt :NERDTreeToggleVCS <CR> :NERDTreeFind <CR>
-"nmap <Leader>nt :NERDTreeToggleVCS /home/ghostos/ <CR> :NERDTreeFind <CR>
 "==========================================================================
 
 
