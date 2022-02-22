@@ -25,7 +25,8 @@ nmap <Leader>s <Plug>(easymotion-s2)
 "==========================================================================
 "Nerd-Tree.
 "==========================================================================
-nmap <Leader>nt :NERDTreeToggleVCS <CR> :NERDTreeFind <CR>
+" Mirror the NERDTree before showing it. This makes it the same on all tabs.
+nnoremap <Leader>nt :NERDTreeMirror<CR>:NERDTreeFocus<CR>
 "==========================================================================
 
 
