@@ -8,7 +8,7 @@ Plug 'kevinoid/vim-jsonc'                             "Sintax highligthing for c
 
 "GUI
 Plug 'vim-airline/vim-airline'										"Status bar.
-Plug 'sheerun/vim-polyglot'												"Languajes pack, highligthing and indent.
+"Plug 'sheerun/vim-polyglot'												"Languajes pack, highligthing and indent.
 Plug 'Yggdroot/indentLine'												"Show lines of indent.
 
 "Git
