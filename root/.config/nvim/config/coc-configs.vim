@@ -11,12 +11,13 @@ let g:coc_global_extensions = [
       \'coc-markdownlint',
       \'coc-tsserver',
       \'coc-eslint',
-      \'coc-prettier',
       \'coc-pyright',
       \'coc-angular',
       \'coc-calc',
       \'coc-lightbulb',
       \]
+
+      "\'coc-prettier',
 
 " TextEdit might fail if hidden is not set.
 set hidden

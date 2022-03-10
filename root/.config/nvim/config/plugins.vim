@@ -28,7 +28,7 @@ Plug 'christoomey/vim-tmux-navigator'							"Jump between windows.
 Plug 'preservim/nerdcommenter'										"Comment lines easily.
 
 "Autocomplete
-Plug 'neoclide/coc.nvim', {'branch': 'release'}		"COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}   "Coc
 Plug 'alvan/vim-closetag'													"Close html tags.
 Plug 'jiangmiao/auto-pairs'												"Autoclose pharentesis, keys ...
 Plug 'github/copilot.vim'                             "Suggests line completions.

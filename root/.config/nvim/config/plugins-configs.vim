@@ -63,7 +63,7 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 "IndentLine.
 "==========================================================================
 :set list lcs=tab:\|\ 
-let g:indentLine_char_list = ['║', '│', '|', '¦', '┋']
+let g:indentLine_char_list = ['║', '│', '|', '¦']
 let g:indentLine_color_gui = '#61AFEF'
 "==========================================================================
 
