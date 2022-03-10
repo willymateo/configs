@@ -88,6 +88,8 @@ let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourse
 "==========================================================================
 "vim-devicons
 "==========================================================================
+" Devicons in NerdTree
+let g:webdevicons_enable_nerdtree = 1
 " turn on/off file node glyph decorations (not particularly useful)
 let g:WebDevIconsUnicodeDecorateFileNodes = 1
 " use double-width(1) or single-width(0) glyphs

@@ -13,8 +13,8 @@ Plug 'Yggdroot/indentLine'                            "Show lines of indent.
 "NerdTree
 "Is very important this order.
 Plug 'preservim/nerdtree'                             "File explorer - tree.
-"Plug 'vwxyutarooo/nerdtree-devicons-syntax'           "Colorize the devicons in nerdtree.
 Plug 'Xuyuanp/nerdtree-git-plugin'                    "show the files modified, added ... in nerdtree.
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'        "Colorize the devicons in nerdtree.
 
 "IDE
 Plug 'christoomey/vim-tmux-navigator'                 "Jump between windows.
@@ -34,5 +34,4 @@ Plug 'jiangmiao/auto-pairs'                           "Autoclose pharentesis, ke
 "Icons
 "Is important that this plugin be the last.
 Plug 'ryanoasis/vim-devicons'                         "Icons pack.
-"Plug 'kyazdani42/nvim-web-devicons'
 call plug#end()
