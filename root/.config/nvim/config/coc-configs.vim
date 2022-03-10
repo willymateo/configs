@@ -1,6 +1,5 @@
 " Coc extensions.
 let g:coc_global_extensions = [
-      \'coc-git',
       \'coc-css',
       \'coc-cssmodules',
       \'coc-xml',
@@ -17,7 +16,8 @@ let g:coc_global_extensions = [
       \'coc-lightbulb',
       \]
 
-      "\'coc-prettier',
+"\'coc-git',
+"\'coc-prettier',
 
 " TextEdit might fail if hidden is not set.
 set hidden
