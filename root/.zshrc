@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/ghostos/.oh-my-zsh"
+export ZSH="/home/darkos/.oh-my-zsh"
 
 #ZSH_THEME="flazz"
 source $ZSH/zsh-git-prompt/zshrc.sh
