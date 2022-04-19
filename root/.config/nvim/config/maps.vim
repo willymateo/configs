@@ -48,6 +48,6 @@ let g:AutoPairsShortcutFastWrap = '<M-m>'
 "==========================================================================
 "Prettier.
 "==========================================================================
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
+nnoremap <Leader>pp :CocCommand prettier.forceFormatDocument<CR>
 "==========================================================================
 

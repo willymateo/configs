@@ -15,6 +15,7 @@ let g:coc_global_extensions = [
       \'coc-angular',
       \'coc-calc',
       \'coc-lightbulb',
+      \'coc-prettier',
       \]
 
 "\'coc-prettier',
