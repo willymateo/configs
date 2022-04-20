@@ -14,7 +14,6 @@ Plug 'Yggdroot/indentLine'                            "Show lines of indent.
 "Is very important this order.
 Plug 'preservim/nerdtree'                             "File explorer - tree.
 Plug 'Xuyuanp/nerdtree-git-plugin'                    "show the files modified, added ... in nerdtree.
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'        "Colorize the devicons in nerdtree.
 
 "IDE
 Plug 'christoomey/vim-tmux-navigator'                 "Jump between windows.

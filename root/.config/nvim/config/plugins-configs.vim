@@ -37,6 +37,18 @@ let g:closetag_close_shortcut = '<Leader>>'
 
 
 "==========================================================================
+"Vim-closetag
+"==========================================================================
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+"==========================================================================
+
+
+"==========================================================================
 "Signify
 "==========================================================================
 set updatetime=300
