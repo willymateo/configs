@@ -9,12 +9,35 @@ autocmd FileType scss setl iskeyword+=@-@
 
 
 "==========================================================================
-"Gruvbox
+"Theme:Purify
 "==========================================================================
-let g:gruvbox_contrast_dark = "hard"
-let g:gruvbox_italic =1
-let g:gruvbox_transparent_bg=1
-colorscheme gruvbox
+let g:purify_bold = 1
+let g:purify_italic = 1
+let g:purify_underline = 1
+let g:purify_undercurl = 1
+let g:purify_inverse = 1
+colorscheme purify
+hi Normal guibg=#16181f ctermbg=234
+"==========================================================================
+
+
+"==========================================================================
+"vim-jsx-pretty
+"==========================================================================
+let g:vim_jsx_pretty_colorful_config = 1
+"==========================================================================
+
+
+"==========================================================================
+"Valloric/MatchTagAlways
+"==========================================================================
+let g:mta_filetypes = {
+    \ 'html' : 1,
+    \ 'xhtml' : 1,
+    \ 'xml' : 1,
+    \ 'jinja' : 1,
+    \ 'javascriptreact' : 1,
+    \}
 "==========================================================================
 
 
@@ -24,7 +47,7 @@ colorscheme gruvbox
 "let g:airline#extensions#tabline#formatter = 'unique_tail'
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='deus'
+let g:airline_theme='purify'
 "==========================================================================
 
 
@@ -37,7 +60,7 @@ let g:closetag_close_shortcut = '<Leader>>'
 
 
 "==========================================================================
-"Vim-closetag
+"preservim/nerdcommenter
 "==========================================================================
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
