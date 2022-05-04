@@ -1,7 +1,7 @@
 call plug#begin()
 
 "Apparence.
-Plug 'kyoz/purify', { 'rtp': 'vim' }                  "Theme.
+Plug 'dracula/vim', { 'as': 'dracula' }               "Theme
 Plug 'mhinz/vim-signify'                              "Show the lines added, modified and deleted.
 Plug 'vim-airline/vim-airline-themes'                 "Themes for Airline.
 Plug 'ap/vim-css-color'                               "Help to colorize text color..

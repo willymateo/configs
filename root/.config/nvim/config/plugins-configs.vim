@@ -9,15 +9,9 @@ autocmd FileType scss setl iskeyword+=@-@
 
 
 "==========================================================================
-"Theme:Purify
+"Theme
 "==========================================================================
-let g:purify_bold = 1
-let g:purify_italic = 1
-let g:purify_underline = 1
-let g:purify_undercurl = 1
-let g:purify_inverse = 1
-colorscheme purify
-hi Normal guibg=#16181f ctermbg=234
+colorscheme dracula
 "==========================================================================
 
 
@@ -47,7 +41,7 @@ let g:mta_filetypes = {
 "let g:airline#extensions#tabline#formatter = 'unique_tail'
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='purify'
+let g:airline_theme='dracula'
 "==========================================================================
 
 

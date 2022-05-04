@@ -4,7 +4,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/darkos/.oh-my-zsh"
 
-#ZSH_THEME="flazz"
 source $ZSH/zsh-git-prompt/zshrc.sh
 ZSH_THEME="ghostos"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
@@ -58,6 +57,9 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Dracula zsh-syntax-highlighting
+source $HOME/zsh-syntax-highlighting.sh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
