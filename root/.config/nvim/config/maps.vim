@@ -51,3 +51,12 @@ let g:AutoPairsShortcutFastWrap = '<M-m>'
 nnoremap <Leader>pp :CocCommand prettier.forceFormatDocument<CR>
 "==========================================================================
 
+
+"==========================================================================
+"fzf.
+"==========================================================================
+nnoremap <Leader>o :Buffers<CR>
+nnoremap <Leader>s :HFiles<CR>
+nnoremap <Leader>g :Ag<CR>
+"==========================================================================
+

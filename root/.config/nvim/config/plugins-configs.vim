@@ -137,3 +137,15 @@ let g:DevIconsEnableFolderExtensionPatternMatching = 1
 "let g:UltiSnipsEditSplit="vertical"
 "==========================================================================
 
+"==========================================================================
+"fzf
+"==========================================================================
+command! -bang -nargs=? -complete=dir HFiles
+  \ call fzf#vim#files(<q-args>,
+    \ fzf#vim#with_preview({
+    \ 'source': 'fdfind --color=always --type f --hidden --follow --exclude .git',
+    \ 'options': ['--ansi', '--layout=reverse', '--info=inline', '--preview', 'batcat {}']
+   \ }), <bang>0)
+
+"==========================================================================
+
