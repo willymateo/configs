@@ -1,6 +1,6 @@
 {
   "coc.preferences.extensionUpdateCheck" : "daily",
-  "xml.java.home": "/usr/lib/jvm/java-8-openjdk-amd64",
+  "xml.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
   "eslint.alwaysShowStatus": true,
   //Show errors and warnings where is the cursor.
   "diagnostic.checkCurrentLine": true,

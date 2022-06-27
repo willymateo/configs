@@ -33,6 +33,7 @@ Plug 'junegunn/fzf.vim'                               "Fuzzy finder.
 Plug 'neoclide/coc.nvim', {'branch': 'release'}       "Coc
 Plug 'alvan/vim-closetag'                             "Close html tags.
 Plug 'jiangmiao/auto-pairs'                           "Autoclose pharentesis, keys ...
+Plug 'AndrewRadev/tagalong.vim'                       "Autorename tags.
 Plug 'github/copilot.vim'                             "Suggests line completions.
 
 "React

@@ -105,7 +105,7 @@ autoload -U compinit && compinit
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #alias ls="ls -lhsX --color"
-alias ls="ls -alsX --color"
+alias ls="ls -AlsX --color"
 alias pip=pip3
 alias cat=batcat
 
