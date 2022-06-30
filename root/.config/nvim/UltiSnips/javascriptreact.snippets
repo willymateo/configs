@@ -1,0 +1,18 @@
+snippet imp "import module" b
+import { $2 } from "$1";
+endsnippet
+
+snippet exp "named export" b
+export { $1 };
+endsnippet
+
+# ==========================================================================
+# React
+# ==========================================================================
+snippet rfc "React function component" b
+function $1() {
+	return <$2>$3</$2>;
+}
+
+export { $1 };
+endsnippet
