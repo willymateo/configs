@@ -131,10 +131,10 @@ let g:DevIconsEnableFolderExtensionPatternMatching = 1
 "==========================================================================
 "SirVer/ultisnips
 "==========================================================================
-"let g:UltiSnipsExpandTrigger="<>"
-"let g:UltiSnipsJumpForwardTrigger="<Tab>"
-"let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
-"let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsExpandTrigger="<Enter>"
+let g:UltiSnipsJumpForwardTrigger="<Tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
+" let g:UltiSnipsEditSplit="vertical"
 "==========================================================================
 
 "==========================================================================
