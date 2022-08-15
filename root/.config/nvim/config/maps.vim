@@ -55,7 +55,7 @@ nnoremap <Leader>pp :CocCommand prettier.forceFormatDocument<CR>
 "==========================================================================
 "fzf.
 "==========================================================================
-nnoremap <Leader>o :Buffers<CR>
+nnoremap <M-b> :Buffers<CR>
 nnoremap <Leader>s :HFiles<CR>
 nnoremap <Leader>ag :Ag<CR>
 "==========================================================================

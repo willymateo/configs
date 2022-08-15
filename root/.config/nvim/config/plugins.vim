@@ -37,7 +37,7 @@ Plug 'AndrewRadev/tagalong.vim'                       "Autorename tags.
 Plug 'github/copilot.vim'                             "Suggests line completions.
 
 "React
-Plug 'SirVer/ultisnips'                              "Snippets provider.
+" Plug 'SirVer/ultisnips'                              "Snippets provider.
 " Plug 'mlaursen/vim-react-snippets'                   "React snippets.
 "
 

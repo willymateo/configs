@@ -4,6 +4,7 @@ let g:coc_global_extensions = [
       \'coc-css',
       \'coc-cssmodules',
       \'coc-xml',
+      \'coc-yaml',
       \'coc-html',
       \'coc-htmlhint',
       \'coc-html-css-support',
