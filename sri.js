@@ -1,8 +1,12 @@
-let chech = document.querySelectorAll("input[type='checkbox']");
-Array.from(chech).forEach(item => item.checked=true);
+const rows = document.querySelectorAll("table[id$='tblFacturas'] > tbody > tr");
+const checkboxes = document.querySelectorAll("input[type='checkbox']");
 
-let inp = document.querySelectorAll("input[name$='id182']");
-let valor = document.querySelectorAll("td[id$='id177'] label");
-for(let i=0; i<inp.length; i++){
-	inp[i].value= valor[i].innerHTML;
-}
+// Select all invoices
+checkboxes.forEach((checkbox) => (checkbox.checked = true));
+
+// Fill requested IVA with current IVA
+rows.forEach((row) => {
+  const iva = row.querySelector("td:nth-child(6) label").innerHTML;
+  const requestedIVA = row.querySelector("td:nth-child(7) input");
+  requestedIVA.value = iva;
+});

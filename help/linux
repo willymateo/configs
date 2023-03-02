@@ -10,14 +10,5 @@ tar -xf *.tar|tar.gz
 Extract a rar file:
 unrar x file.rar file_destine
 
-browser-sync:
-npm init
-npm install browser-sync --save-dev
-Copy this script in package:
-"server-dev": "browser-sync start --server --directory --files '*.html, *.css'"
-
 update npm:
 sudo npm install -g npm
-
-install all dependencies npm:
-install i

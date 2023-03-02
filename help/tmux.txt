@@ -6,4 +6,3 @@ ctrl + b  "			Split the terminal in horizontal.
 ctrl + b  %			Split the terminal in vertical.
 ctrl + b  direction		Move to the session in the direccion.
 tmux kill-session -t num 	Exit the session num.
-

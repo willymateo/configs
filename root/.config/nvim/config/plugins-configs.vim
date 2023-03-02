@@ -62,6 +62,8 @@ let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'vue': { 'left': '<!--','right': '-->' } }
 "==========================================================================
 
 
