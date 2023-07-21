@@ -2,13 +2,6 @@
   "coc.preferences.extensionUpdateCheck" : "daily",
   "xml.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
   // Add support for ejs files
-  "html.filetypes": [
-    "html",
-    "handlebars",
-    "htmldjango",
-    "blade",
-    "ejs"
-  ],
   "eslint.alwaysShowStatus": true,
   //Show errors and warnings where is the cursor.
   "diagnostic.checkCurrentLine": true,
