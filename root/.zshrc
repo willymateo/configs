@@ -2,10 +2,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/darkos/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 source $ZSH/zsh-git-prompt/zshrc.sh
-ZSH_THEME="ghostos"
+ZSH_THEME="darkos"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -76,6 +76,8 @@ plugins=(
 	)
 
 source $ZSH/oh-my-zsh.sh
+
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
 # User configuration
 # For zsh-completions
