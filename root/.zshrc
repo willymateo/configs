@@ -8,9 +8,11 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-source $ZSH/zsh-git-prompt/zshrc.sh
+source $ZSH/plugins/git-prompt.zsh/git-prompt.zsh
+
 ZSH_THEME="darkos"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
