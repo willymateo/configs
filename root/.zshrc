@@ -10,6 +10,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 source $ZSH/plugins/git-prompt.zsh/git-prompt.zsh
 
+# Dracula zsh-syntax-highlighting
+source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.sh
+
 ZSH_THEME="darkos"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
 
@@ -68,9 +71,6 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Dracula zsh-syntax-highlighting
-source $HOME/zsh-syntax-highlighting.sh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
