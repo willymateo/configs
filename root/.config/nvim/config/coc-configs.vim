@@ -17,6 +17,12 @@ let g:coc_global_extensions = [
       \'coc-calc',
       \'coc-lightbulb',
       \'coc-prettier',
+      \'coc-docker',
+      \'coc-copilot',
+      \'coc-explorer',
+      \'coc-highlight',
+      \'@yaegassy/coc-astro',
+      \'@yaegassy/coc-tailwindcss3',
       \]
 
 " Some servers have issues with backup files, see #649.
