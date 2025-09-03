@@ -8,10 +8,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-source $ZSH/plugins/git-prompt.zsh/git-prompt.zsh
-
-# Dracula zsh-syntax-highlighting
-source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.sh
 
 ZSH_THEME="darkos"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
@@ -79,23 +75,16 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=37"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+	git-prompt
 	colored-man-pages
 	zsh-autosuggestions
 	zsh-syntax-highlighting
-	zsh-completions
 	command-not-found
 	)
 
 source $ZSH/oh-my-zsh.sh
 
-fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
-
 # User configuration
-
-# For zsh-completions
-autoload -U compinit && compinit
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -121,11 +110,16 @@ alias ls="ls -AlsXh --color"
 alias pip=pip3
 alias cat=batcat
 
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
-
-# Load pyenv
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# AWS
+export AWS_DEFAULT_REGION="us-east-1"
+export AWS_PROFILE="news-to-podcast-prod-AdministratorAccess"
