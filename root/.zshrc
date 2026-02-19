@@ -122,4 +122,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # AWS
 export AWS_DEFAULT_REGION="us-east-1"
-export AWS_PROFILE="news-to-podcast-prod-AdministratorAccess"
+export AWS_PROFILE="nirvy-prod-AdministratorAccess"
+
+# skills.sh
+DISABLE_TELEMETRY=1
