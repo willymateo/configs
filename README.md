@@ -10,8 +10,9 @@ Personal dotfiles and development environment configurations for shell, terminal
 4. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 5. Install [bat](https://github.com/sharkdp/bat)
 6. Install [pyenv](https://github.com/pyenv/pyenv)
-7. Install [nvm](https://github.com/nvm-sh/nvm)
-8. Execute the following script:
+7. Install [uv](https://docs.astral.sh/uv/)
+8. Install [nvm](https://github.com/nvm-sh/nvm)
+9. Execute the following script:
 
 ```cmd
 # Create a backup for the .zshrc file
